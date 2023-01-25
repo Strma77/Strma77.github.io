@@ -1,8 +1,173 @@
+ <!DOCTYPE html>
 <html>
-  <head>
-    <title>strma vebsajt</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-  </body>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Vito Strmecki</title>
+	<style type="text/css">
+
+		
+		body {
+			min-width: 630px;
+		}
+
+		#container {
+			padding-left: 200px;
+			padding-right: 190px;
+		}
+		
+		#container .column {
+			position: relative;
+			float: left;
+		}
+		
+		#center {
+			padding: 10px 20px;
+			width: 100%;
+		}
+		
+		#left {
+			width: 180px;
+			padding: 0 10px;
+			right: 240px;
+			margin-left: -100%;
+		}
+		
+		#right {
+			width: 130px;
+			padding: 0 10px;
+			margin-right: -100%;
+		}
+		
+		#footer {
+			clear: both;
+		}
+		
+		/* IE hack */
+		* html #left {
+			left: 150px;
+		}
+
+		
+		#container {
+			overflow: hidden;
+		}
+
+		#container .column {
+			padding-bottom: 1001em;
+			margin-bottom: -1000em;
+		}
+
+		/* Fix for the footer */
+		* html body {
+			overflow: hidden;
+		}
+		
+		* html #footer-wrapper {
+			float: left;
+			position: relative;
+			width: 100%;
+			padding-bottom: 10010px;
+			margin-bottom: -10000px;
+			background: #fff;
+		}
+
+		/* Aesthetics */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family:Sans-serif;
+			line-height: 1.5em;
+		}
+		
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: darkgreen;
+			text-decoration: none;
+		}
+
+		#header, #footer {
+			font-size: large;
+			padding: 0.3em;
+			background: #BCCE98;
+		}
+
+		#left {
+			background: #DAE9BC;
+		}
+		
+		#right {
+			background: #F7FDEB;
+		}
+
+		#center {
+			background: #fff;
+		}
+
+		#container .column {
+			padding-top: 1em;
+		}
+		
+	</style>
+	
+	
+</head>
+
+<body>
+
+	<header id="header"><p>Morin Vyas Sibila</p></header>
+
+	<div id="container">
+
+		<main id="center" class="column">
+			<article>
+			
+				<h1>Morin Vyas Sibila - Portfolio</h1>
+				<p>Morin Vyas Sibila je student TŠRB-a. 3. razred programerski smjer.</p>
+				<p>Živi u Zagrebu,Jurjevska 45. Živi sa mamom, tatom, 2 sestre i 2 psa.</p>
+				<p>Mama radi u kazališnoj industriji, tata je trenutno nezaposlen, sestre pohađaju fakultete.</p>
+			    <p>Starija, Rada, fakultet za nove medija. Mlađa, Luka, fakultet za arhitekturu.</p>
+				<p>Psi se zovu Kali i Vini.</p>
+				<img src="slike/vini.jpg" alt="vini" width="700" height="600"/>
+				<p>Ovo je Vini</p>
+				<br>
+				<img src="slike/kali.jpg" alt="kali" width="700" height="600"/>
+				<p>Ovo je Kali</p>
+				
+			</article>								
+		</main>
+
+		<nav id="left" class="column">
+			<h3>Dijelovi Stranice</h3>
+			<ul>
+				<li><a href="Main.html">Glavna stranica</a></li>
+				<li><a href="Sah.html">Šah</a></li>
+				<li><a href="Filmovi i Serije.html">Filmovi i Serije</a></li>
+				<li><a href="Glazba.html">Glazba</a></li>
+				
+				
+			</ul>
+			
+			
+
+		</nav>
+
+		
+
+	</div>
+
+	<div id="footer-wrapper">
+		<footer id="footer"><p>Morin Vyas Sibila</p></footer>
+	</div>
+
+</body>
+
 </html>
